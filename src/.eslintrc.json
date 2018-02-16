@@ -1,0 +1,11 @@
+{
+    "extends": "standard",
+    "globals": {
+        "Image": false
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "space-before-function-paren": ["error", {"anonymous": "always", "named": "never"}],
+        "no-unused-vars": ["error", { "varsIgnorePattern": "startGame" }]
+    }
+}
